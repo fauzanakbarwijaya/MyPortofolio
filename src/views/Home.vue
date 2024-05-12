@@ -9,36 +9,53 @@
             return {
                 count: 0,
                 loves: [],
+                iconIndex: 0,
+                icons: [
+                    '/src/assets/images/icon/brand_icon.png',
+                    '/src/assets/images/icon/brand_icon_yellow.png',
+                    '/src/assets/images/icon/brand_icon_black.png'
+                ]
+
             }
         },
         methods: {
             changeBackgroundColor() {
-            this.count++;
-            this.loves.push({ 
-                id: this.count,
-                x: Math.random() * 100, 
-                y: 0 
-            });
+                this.count++;
+                this.loves.push({
+                    id: this.count,
+                    x: Math.random() * 100,
+                    y: 0
+                });
+            },
+            changeIcon() {
+                this.iconIndex = (this.iconIndex + 1) % this.icons.length;
+            }
+        },
+        mounted() {
+            setInterval(() => {
+                this.changeIcon();
+            }, 2500);
         }
-        }
+
     };
 </script>
 
 <template>
-    
+
     <Navbar></Navbar>
-    
+
     <div class="container">
         <div class="loves-container">
-            <div v-for="love in loves" :key="love.id" class="love" :style="{ top: love.y + 'vh', left: love.x + 'vw' }">
+            <div v-for="love in loves" :key="love.id" class="love"
+                :style="{ top: love.y + 'vh', left: love.x + 'vw' }">
                 <i class="bi bi-heart-fill text-warning fs-1 fw-bold"></i>
             </div>
         </div>
         <div class="row d-flex justify-content-center align-items-center mb-5">
             <div class="mt-4">
                 <div class="logo mb-5">
-                    <img src="/src/assets/images/icon/brand_icon.png" alt="" srcset=""
-                        class="img-fluid d-block mx-auto" style="width: 5rem;">
+                    <img :src="icons[iconIndex]" alt="" srcset=""
+                        class="img-fluid d-block mx-auto icon-transition" style="width: 5rem;">
                 </div>
                 <div class="title mb-3">
                     <h1 class="text-center">Hello Everyone!</h1>
@@ -52,7 +69,8 @@
                 </div>
                 <div class="see-more">
                     <a href="/About" class="btn btn-warning d-block mx-auto w-50">Get Started</a>
-                    <button class="btn btn-secondary rounded-pill d-block mx-auto mt-4" type="button" @click="changeBackgroundColor()">
+                    <button class="btn btn-secondary rounded-pill d-block mx-auto mt-4" type="button"
+                        @click="changeBackgroundColor()">
                         Give me as much of your love as possible! <i class="bi bi-heart-fill text-warning"></i>
                     </button>
                 </div>
@@ -88,4 +106,10 @@
             opacity: 0;
         }
     }
+
+    .icon-transition {
+        opacity: 85%;
+        transition-delay: opacity 2s ease-in-out;
+    }
+    
 </style>
