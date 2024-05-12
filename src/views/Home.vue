@@ -11,9 +11,9 @@
                 loves: [],
                 iconIndex: 0,
                 icons: [
-                    '/src/assets/images/icon/brand_icon.png',
-                    '/src/assets/images/icon/brand_icon_yellow.png',
-                    '/src/assets/images/icon/brand_icon_black.png'
+                    '/dist/assets/brand_icon.png',
+                    '/dist/assets/brand_icon_yellow.png',
+                    '/dist/assets/brand_icon_black.png'
                 ]
 
             }
