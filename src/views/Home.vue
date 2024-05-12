@@ -11,9 +11,9 @@
                 loves: [],
                 iconIndex: 0,
                 icons: [
-                    '/dist/assets/brand_icon.png',
-                    '/dist/assets/brand_icon_yellow.png',
-                    '/dist/assets/brand_icon_black.png'
+                    '/src/assets/images/icon/brand_icon.png',
+                    '/src/assets/images/icon/brand_icon_yellow.png',
+                    '/src/assets/images/icon/brand_icon_black.png'
                 ]
 
             }
@@ -54,7 +54,7 @@
         <div class="row d-flex justify-content-center align-items-center mb-5">
             <div class="mt-4">
                 <div class="logo mb-5">
-                    <img :src="icons[iconIndex]" :alt="icons[iconIndex]" class="img-fluid d-block mx-auto icon-transition" style="width: 5rem;">
+                    <img :src="icons[iconIndex]" :alt="icons" class="img-fluid d-block mx-auto icon-transition" style="width: 5rem;">
                 </div>
                 <div class="title mb-3">
                     <h1 class="text-center">Hello Everyone!</h1>
