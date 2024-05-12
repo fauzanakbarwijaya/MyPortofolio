@@ -56,11 +56,13 @@
                         <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="mx-auto">
                             <img src="/src/assets/images/icon/css_icon.svg" class="img-fluid mx-auto" width="70">
                         </a>
-                        <a href="https://www.php.net/docs.php" target="_blank" class="mx-auto" >
-                            <img src="/src/assets/images/icon/php_icon.png" class="img-fluid mx-auto mt-2" width="100">
+                        <a href="https://www.php.net/docs.php" target="_blank" class="mx-auto">
+                            <img src="/src/assets/images/icon/php_icon.png" class="img-fluid mx-auto mt-2"
+                                width="100">
                         </a>
                         <a href="https://www.w3schools.com/js/default.asp" target="_blank" class="mx-auto">
-                            <img src="/src/assets/images/icon/javascript_icon.svg" class="img-fluid mx-auto" width="70">
+                            <img src="/src/assets/images/icon/javascript_icon.svg" class="img-fluid mx-auto"
+                                width="70">
                         </a>
                         <a href="https://github.com/" target="_blank" class="mx-auto">
                             <img src="/src/assets/images/icon/git_icon.svg" class="img-fluid mx-auto" width="70">
@@ -68,10 +70,12 @@
                     </div>
                     <div class="d-flex mx-auto mt-5">
                         <a href="https://getbootstrap.com/" target="_blank" class="mx-auto">
-                            <img src="/src/assets/images/icon/bootstrap_icon.svg" class="img-fluid mx-auto" width="70">
+                            <img src="/src/assets/images/icon/bootstrap_icon.svg" class="img-fluid mx-auto"
+                                width="70">
                         </a>
                         <a href="https://laravel.com/docs/11.x/readme" target="_blank" class="mx-auto">
-                            <img src="/src/assets/images/icon/laravel_icon.svg" class="img-fluid mx-auto" width="70">
+                            <img src="/src/assets/images/icon/laravel_icon.svg" class="img-fluid mx-auto"
+                                width="70">
                         </a>
                         <a href="https://vuejs.org/" target="_blank" class="mx-auto">
                             <img src="/src/assets/images/icon/vuejs.png" class="img-fluid mx-auto" width="70">
@@ -87,7 +91,14 @@
 
                 </div>
             </div>
-        </div>  
+            <div class="mt-3 mb-5">
+                <p class="fs-5 text-light">with these tools and frameworks I have received many awards as you can see
+                    here: <span>
+                        <RouterLink to="/achievement" class="text-warning text-decoration-underline fw-bold">My Achievements</RouterLink>
+                    </span>
+                </p>
+            </div>
+        </div>
 
 
     </div>

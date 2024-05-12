@@ -31,7 +31,7 @@
     <div class="container">
         <div class="loves-container">
             <div v-for="love in loves" :key="love.id" class="love" :style="{ top: love.y + 'vh', left: love.x + 'vw' }">
-                <i class="bi bi-heart-fill text-warning fs-2 fw-bold"></i>
+                <i class="bi bi-heart-fill text-warning fs-1 fw-bold"></i>
             </div>
         </div>
         <div class="row d-flex justify-content-center align-items-center mb-5">
@@ -84,7 +84,7 @@
         }
 
         100% {
-            transform: translateY(100vh) rotate(360deg);
+            transform: translateY(100vh) rotate(480deg);
             opacity: 0;
         }
     }
