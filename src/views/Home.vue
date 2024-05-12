@@ -9,7 +9,6 @@
             return {
                 count: 0,
                 loves: [],
-                test:'test'
             }
         },
         methods: {
@@ -35,7 +34,7 @@
                 <i class="bi bi-heart-fill text-warning fs-2 fw-bold"></i>
             </div>
         </div>
-        <div class="row d-flex justify-content-center align-items-center mb-5" data-aos="fade-up" data-aos-duration="2000">
+        <div class="row d-flex justify-content-center align-items-center mb-5">
             <div class="mt-4">
                 <div class="logo mb-5">
                     <img src="/src/assets/images/icon/brand_icon.png" alt="" srcset=""
