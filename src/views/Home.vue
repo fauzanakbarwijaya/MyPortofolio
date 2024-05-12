@@ -8,7 +8,8 @@
         data() {
             return {
                 count: 0,
-                loves: []
+                loves: [],
+                test:'test'
             }
         },
         methods: {
