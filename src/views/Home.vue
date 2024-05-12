@@ -109,7 +109,7 @@
 
     .icon-transition {
         opacity: 85%;
-        transition-delay: opacity 2s ease-in-out;
+        transition-delay: opacity 2s;
     }
     
 </style>
