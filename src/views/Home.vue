@@ -10,11 +10,7 @@
                 count: 0,
                 loves: [],
                 iconIndex: 0,
-                icons: [
-                    '/dist/assets/brand_icon-CTEO8c8n.png',
-                    '/dist/assets/brand_icon_yellow-CaOpvHXP.png',
-                    '/dist/assets/brand_icon_black-BAKIvna6.png'
-                ]
+                icons: []
 
             }
         },
@@ -32,6 +28,12 @@
             }
         },
         mounted() {
+            const brandIcon = this.$refs.brandIcon;
+            const brandIconYellow = this.$refs.brandIconYellow;
+            const brandIconBlack = this.$refs.brandIconBlack;
+
+            this.icons = [brandIcon.src, brandIconYellow.src, brandIconBlack.src];
+
             setInterval(() => {
                 this.changeIcon();
             }, 2500);
@@ -54,8 +56,13 @@
         <div class="row d-flex justify-content-center align-items-center mb-5">
             <div class="mt-4">
                 <div class="logo mb-5">
-                    <img :src="icons[iconIndex]" :alt="icons[iconIndex]" class="img-fluid d-block mx-auto icon-transition" style="width: 5rem;">
-
+                    <img ref="brandIcon" src="/src/assets/images/icon/brand_icon.png" alt="" class="d-none">
+                    <img ref="brandIconYellow" src="/src/assets/images/icon/brand_icon_yellow.png" alt=""
+                        class="d-none">
+                    <img ref="brandIconBlack" src="/src/assets/images/icon/brand_icon_black.png" alt=""
+                        class="d-none">
+                    <img :src="icons[iconIndex]" :alt="icons[iconIndex]"
+                        class="img-fluid d-block mx-auto icon-transition" style="width: 5rem;">
                 </div>
                 <div class="title mb-3">
                     <h1 class="text-center">Hello Everyone!</h1>
@@ -111,5 +118,4 @@
         opacity: 85%;
         transition-delay: opacity 2s;
     }
-    
 </style>
