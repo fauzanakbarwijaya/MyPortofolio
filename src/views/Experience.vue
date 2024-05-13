@@ -83,7 +83,7 @@
                     <div class="card-body">
                         <p class="text-muted">Jun - Agu 2023</p>
                         <p class="card-text">
-                            had the opportunity to work as a contract frontend website developer for 4 months at <span><a href="https://www.linkedin.com/company/batuloncatan/">Oqury Studio</a></span>
+                            had the opportunity to work as a frontend website developer for 4 months at <span><a href="https://www.linkedin.com/company/batuloncatan/">Oqury Studio</a></span>
                         </p>
                     </div>
                 </div>

@@ -16,7 +16,7 @@
                         </RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink to="/experience" class="nav-link text-white hover-underline">Experience</RouterLink>
+                        <RouterLink to="/experience" class="nav-link text-white hover-underline">Experiences</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink to="/project" class="nav-link text-white hover-underline">Projects</RouterLink>
