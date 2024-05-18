@@ -46,7 +46,7 @@
                         thumbnail: "",
                         carousel: [],
                         link: "none",
-                        detailProject: "actually this is my side project. but when I made this project, there was an event at my school which would be held in the near future, namely the election of the head of the organization. In the end, the school asked my project to be implemented directly in these activities. As you can see, Smart Ballot is a website-based election application where participants (in this context are students other than candidates) can vote for the chairman candidate directly on the website. This was a solo project and I served as a Full Stack website developer on this project.",
+                        detailProject: "actually this is my side project. but when I made this project, there was an event at my school which would be held in the near future, namely the election of the head of the organization. In the end, the school asked my project to be implemented directly in these activities. As you can see, Smart Ballot is a website-based election application where participants (in this context are students other than candidates) can vote for the chairman candidate directly on the website. This website is not hosted globally but uses a server at the school, So only someone who can access this website is connected to the internet at school. This was a solo project and I served as a Full Stack website developer on this project.",
                         clientLink : "https://smkn12jkt.id/",
                         Tools: ['PHP', 'Bootstrap', 'Git & Github', 'CSS', 'Javascript']
                     },
