@@ -42,6 +42,16 @@
                     },
                     {
                         id: 4,
+                        cardName: "Smart Ballot",
+                        thumbnail: "",
+                        carousel: [],
+                        link: "none",
+                        detailProject: "actually this is my side project. but when I made this project, there was an event at my school which would be held in the near future, namely the election of the head of the organization. In the end, the school asked my project to be implemented directly in these activities. As you can see, Smart Ballot is a website-based election application where participants (in this context are students other than candidates) can vote for the chairman candidate directly on the website. This was a solo project and I served as a Full Stack website developer on this project.",
+                        clientLink : "https://smkn12jkt.id/",
+                        Tools: ['PHP', 'Bootstrap', 'Git & Github', 'CSS', 'Javascript']
+                    },
+                    {
+                        id: 5,
                         cardName: "SiPKL",
                         thumbnail: "",
                         carousel: [],
@@ -52,7 +62,7 @@
                         Tools: ['Laravel', 'Bootstrap', 'Git & Github', 'CSS', 'Javascript']
                     },
                     {
-                        id: 5,
+                        id: 6,
                         cardName: "SEMUDAH",
                         thumbnail: "",
                         carousel: [],
@@ -94,6 +104,11 @@
                         thumbnail = refs.SEMUDAHThumbnail.src;
                         carousel = [refs.SEMUDAHCarousel1.src, refs.SEMUDAHCarousel2.src, refs.SEMUDAHCarousel3
                             .src
+                        ];
+                    } else if (card.cardName === "Smart Ballot") {
+                        thumbnail = refs.smartBallotThumbnail.src;
+                        carousel = [refs.smartBallotCarousel1.src, refs.smartBallotCarousel2.src, refs.smartBallotCarousel3
+                            .src, refs.smartBallotCarousel4.src
                         ];
                     }
 
@@ -152,6 +167,19 @@
     <img ref="SEMUDAHCarousel3" src="/src/assets/images/projects/SEMUDAH/register_semudah.png" alt=""
         class="d-none">
     <!-- SEMUDAH END -->
+
+    <!-- Smart Ballot -->
+    <img ref="smartBallotThumbnail" src="/src/assets/images/projects/smartBallot/votingBallot.png" alt="smartBallot"
+        class="d-none">
+    <img ref="smartBallotCarousel1" src="/src/assets/images/projects/smartBallot/loginBallot.png" alt=""
+        class="d-none">
+    <img ref="smartBallotCarousel2" src="/src/assets/images/projects/smartBallot/votingBallot.png" alt=""
+        class="d-none">
+    <img ref="smartBallotCarousel3" src="/src/assets/images/projects/smartBallot/desc.png" alt=""
+        class="d-none">
+    <img ref="smartBallotCarousel4" src="/src/assets/images/projects/smartBallot/dataBallot.png" alt=""
+        class="d-none">
+    <!-- Smart Ballot End -->
 
     <!-- END ASSETS -->
 
