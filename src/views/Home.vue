@@ -65,20 +65,16 @@
                         class="img-fluid d-block mx-auto icon-transition" style="width: 5rem;">
                 </div>
                 <div class="title mb-3">
-                    <h1 class="text-center">Hello Everyone!</h1>
+                    <h1 class="text-center">{{ $t('home.title') }}</h1>
                 </div>
                 <div class="subtitle">
-                    <p class="lh-lg fs-5 text-center">I'm interested in becoming a Website Developer. making code simple
-                        and
-                        creating
-                        interactive and user friendly websites. Let's explore <span class="fw-bold">My
-                            Portfolio!</span></p>
+                    <p class="lh-lg fs-5 text-center">{{ $t('home.subtitle') }} <span class="fw-bold">{{ $t('home.myPorto') }}</span></p>
                 </div>
                 <div class="see-more">
-                    <a href="/About" class="btn btn-warning d-block mx-auto w-50">Get Started</a>
+                    <a href="/About"  class="btn btn-warning d-block mx-auto w-50">{{ $t('home.getStarted') }}</a>
                     <button class="btn btn-secondary rounded-pill d-block mx-auto mt-4" type="button"
                         @click="changeBackgroundColor()">
-                        Give me as much of your love as possible! <i class="bi bi-heart-fill text-warning"></i>
+                        {{ $t('home.love') }} <i class="bi bi-heart-fill text-warning"></i>
                     </button>
                 </div>
             </div>

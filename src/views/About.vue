@@ -18,16 +18,12 @@
             </div>
             <div class="col-md-6">
                 <div class="title mt-3">
-                    <h5 class="text-warning fw-semibold">About Me</h5>
+                    <h5 class="text-warning fw-semibold">{{ $t('about.title') }}</h5>
                     <h1 class="text-white mt-2">Fauzan Akbar Wijaya</h1>
                 </div>
                 <div class="subtitle mb-3">
-                    <p class="text-white fs-5 mb-5">I am Fauzan <span class="fw-bold">(some people called me
-                            Zan).</span> A
-                        graduate of a state vocational high school in Indonesia majoring in software engineering. Please
-                        explore this website to your heart's content! I created this website to document the
-                        projects I created during my life as a website developer</p>
-                    <h4 class="text-warning fw-semibold">My Sosial Media </h4>
+                    <p class="text-white fs-5 mb-5">{{ $t('about.myName') }} <span class="fw-bold">{{ $t('about.myName2') }}. </span> {{ $t('about.description') }}</p>
+                    <h4 class="text-warning fw-semibold">{{ $t('about.myMedia') }} </h4>
                     <div class="d-flex justify-content-start">
                         <a href="https://www.instagram.com/fauzanakbarwijaya/" target="_blank"><i
                                 class="bi bi-instagram fs-4 text-white"></i></a>
@@ -42,10 +38,8 @@
             </div>
         </div>
         <div class="row">
-            <h3 class="text-warning fw-semibold text-center mb-3">My knowledge</h3>
-            <p class="text-white fs-5 mb-3">During my almost 3 year journey as a website developer, I have learned many
-                things to help me make it easier to complete my projects. The various tools and frameworks that I
-                learned include the following :
+            <h3 class="text-warning fw-semibold text-center mb-3">{{ $t('about.myKnow') }}</h3>
+            <p class="text-white fs-5 mb-3">{{ $t('about.myKnow2') }}
             </p>
             <div class="card bg-light bg-opacity-75 border-0 card-lg text-center rounded" style="height: 30%;">
                 <div class="card-body">
@@ -92,9 +86,8 @@
                 </div>
             </div>
             <div class="mt-3 mb-5">
-                <p class="fs-5 text-light">with these tools and frameworks I have received many awards as you can see
-                    here: <span>
-                        <RouterLink to="/achievement" class="text-warning text-decoration-underline fw-bold">My Achievements</RouterLink>
+                <p class="fs-5 text-light">{{ $t('about.link') }} <span>
+                        <RouterLink to="/achievement" class="text-warning text-decoration-underline fw-bold">{{ $t('navbar.achievement') }}</RouterLink>
                     </span>
                 </p>
             </div>

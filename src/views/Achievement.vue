@@ -13,11 +13,10 @@
     <div class="container mb-5">
         <div class="row mb-5">
             <div class="title">
-                <h3 class="text-center text-light">Achievements</h3>
+                <h3 class="text-center text-light">{{ $t('Achievement.title') }}</h3>
             </div>
             <div class="subtitle mt-3 mb-5">
-                <p class="text-white fs-4 text-center">During my time as a website developer I have won several awards,
-                    including:
+                <p class="text-white fs-4 text-center">{{ $t('Achievement.description') }}
                 </p>
             </div>
 
@@ -30,8 +29,7 @@
                     <div class="card-body">
                         <p class="text-muted">2024</p>
                         <p class="card-text">
-                            Certification for National Occupational junior programmers officially from the Indonesian
-                            National Professional Certification Agency
+                            {{ $t('Achievement.certif1') }}
                         </p>
                     </div>
                 </div>
@@ -48,8 +46,7 @@
                     <div class="card-body">
                         <p class="text-muted">2023</p>
                         <p class="card-text">
-                            Internship certificate as a junior website developer at the Information
-                            Technology Services Center at Jakarta State University
+                            {{ $t('Achievement.certif2') }}
                         </p>
                     </div>
                 </div>
@@ -66,8 +63,7 @@
                     <div class="card-body">
                         <p class="text-muted">2022</p>
                         <p class="card-text">
-                            Award certificate as the best winner of the information technology innovation competition in
-                            the field of product creation at the Satuasa Student Award #3 event
+                            {{ $t('Achievement.certif3') }}
                         </p>
                     </div>
                 </div>
@@ -76,9 +72,9 @@
 
         <div class="row mb-5">
             <p class="fs-5 text-center text-light">
-                I managed to get these awards from my previous valuable experiences which you can see here :
+                {{ $t('Achievement.link') }}
                 <span>
-                    <RouterLink to="/experience" class="text-warning text-decoration-underline fw-bold">My Experiences
+                    <RouterLink to="/experience" class="text-warning text-decoration-underline fw-bold">{{ $t('navbar.experience') }}
                     </RouterLink>
                 </span>
             </p>

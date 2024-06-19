@@ -13,11 +13,10 @@
     <div class="container mb-5">
         <div class="row mb-5">
             <div class="title">
-                <h3 class="text-center text-light">Experiences</h3>
+                <h3 class="text-center text-light">{{ $t('experience.title') }}</h3>
             </div>
             <div class="subtitle mt-3 mb-5">
-                <p class="text-white fs-4 text-center">Below are some valuable experiences I have gained while living my
-                    life as a Website Developer </p>
+                <p class="text-white fs-4 text-center">{{ $t('experience.description') }}</p>
             </div>
 
             <div class="col-md-12 mb-3">
@@ -48,8 +47,7 @@
                     <div class="card-body">
                         <p class="text-muted">2024</p>
                         <p class="card-text">
-                            have the opportunity to take the official National Junior Occupational Programmer
-                            Certification exam from the Indonesian National Professional Certification Agency
+                            {{ $t('experience.exOne') }}
                         </p>
                     </div>
                 </div>
@@ -83,7 +81,7 @@
                     <div class="card-body">
                         <p class="text-muted">Jun - Agu 2023</p>
                         <p class="card-text">
-                            had the opportunity to work as a frontend website developer for 4 months at <span><a href="https://www.linkedin.com/company/batuloncatan/">Oqury Studio</a></span>
+                            {{ $t('experience.exTwo') }} <span><a href="https://www.linkedin.com/company/batuloncatan/">Oqury Studio</a></span>
                         </p>
                     </div>
                 </div>
@@ -113,7 +111,7 @@
                     <div class="card-body">
                         <p class="text-muted">2023</p>
                         <p class="card-text">
-                            Got the opportunity to take part in the 'Student Skill Competition' in the field of web design at the North Jakarta level and won #3 in the competition
+                            {{ $t('experience.exThree') }}
                         </p>
                     </div>
                 </div>
@@ -146,7 +144,7 @@
                     <div class="card-body">
                         <p class="text-muted">2023</p>
                         <p class="card-text">
-                            Carried out an internship for 4 months as a junior website developer at the Information Technology Service Center, Jakarta State University
+                            {{ $t('experience.exFour') }}
                         </p>
                     </div>
                 </div>
@@ -179,7 +177,7 @@
                     <div class="card-body">
                         <p class="text-muted">2022</p>
                         <p class="card-text">
-                            took part in the team competition in the 'Satuasa Student Award #3' event in the field of technology and information. succeeded in achieving 3rd level general results in DKI Jakarta
+                            {{ $t('experience.exFive') }}
 
                         </p>
                     </div>
@@ -189,9 +187,9 @@
         </div>
         <div class="row mb-5">
             <p class="fs-5 text-center text-light">
-                Apart from the experience above, I also have some concrete evidence from the projects I have worked on while being a website developer. You can see it here :
+                {{ $t('experience.link') }}
                 <span>
-                    <RouterLink to="/project" class="text-warning text-decoration-underline fw-bold">My Projects
+                    <RouterLink to="/project" class="text-warning text-decoration-underline fw-bold">{{ $t('navbar.projects') }}
                     </RouterLink>
                 </span>
             </p>

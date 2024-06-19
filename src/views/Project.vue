@@ -187,11 +187,11 @@
     <div class="container mb-5">
         <div class="row mb-5">
             <div class="title">
-                <h3 class="text-center text-light">Projects</h3>
+                <h3 class="text-center text-light">{{ $t('project.title') }}</h3>
             </div>
             <div class="subtitle mt-3 mb-5">
                 <p class="text-white fs-4 text-center">
-                    Below are some of my real projects that are worthwhile
+                    {{ $t('project.description') }}
                 </p>
             </div>
 
@@ -202,10 +202,10 @@
                         <h5 class="card-title">{{ card . cardName }}</h5>
                         <div class="d-flex">
                             <div v-if="card.link === 'none'">
-                                <a class="btn btn-warning disabled">Visit Website</a>
+                                <a class="btn btn-warning disabled">{{ $t('project.visit') }}</a>
                             </div>
                             <div v-else>
-                                <a :href="card.link" class="btn btn-warning">Visit Website</a>
+                                <a :href="card.link" class="btn btn-warning">{{ $t('project.visit') }}</a>
                             </div>
                             <RouterLink
                                 :to="{
@@ -220,7 +220,7 @@
                                         Tools: card.Tools
                                     }
                                 }"
-                                class="btn btn-success ms-3">Detail</RouterLink>
+                                class="btn btn-success ms-3">{{ $t('project.detail') }}</RouterLink>
                         </div>
                     </div>
                 </div>
@@ -229,8 +229,8 @@
 
         <div class="row mb-5">
             <p class=" fs-4 text-center fw-bold text-white">
-                Interested in collaborating with me?
-                <a href="mailto:neacakbar@gmail.com?subject=Interested%20to%20make%20a%20collaboration&body=I'm%20interested%20in%20collaborating%20with%20you.%20How%20to?" class="text-decoration-none text-warning" target="_blank">Click Here</a>
+                {{ $t('project.link1') }}
+                <a href="mailto:neacakbar@gmail.com?subject=Interested%20to%20make%20a%20collaboration&body=I'm%20interested%20in%20collaborating%20with%20you.%20How%20to?" class="text-decoration-none text-warning" target="_blank">{{ $t('project.link2') }}</a>
             </p>
           </div>
     </div>
