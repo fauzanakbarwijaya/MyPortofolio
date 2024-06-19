@@ -56,7 +56,7 @@
                         <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="mx-auto">
                             <img src="/src/assets/images/icon/css_icon.svg" class="img-fluid mx-auto" width="70">
                         </a>
-                        <a href="https://www.php.net/docs.php" target="_blank" class="mx-auto">
+                        <a href="https://www.w3schools.com/php/default.asp" target="_blank" class="mx-auto">
                             <img src="/src/assets/images/icon/php_icon.png" class="img-fluid mx-auto mt-2"
                                 width="100">
                         </a>
@@ -73,7 +73,7 @@
                             <img src="/src/assets/images/icon/bootstrap_icon.svg" class="img-fluid mx-auto"
                                 width="70">
                         </a>
-                        <a href="https://laravel.com/docs/11.x/readme" target="_blank" class="mx-auto">
+                        <a href="https://laravel.com/" target="_blank" class="mx-auto">
                             <img src="/src/assets/images/icon/laravel_icon.svg" class="img-fluid mx-auto"
                                 width="70">
                         </a>
