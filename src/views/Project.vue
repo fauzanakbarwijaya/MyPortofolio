@@ -9,10 +9,21 @@
             return {
                 cards: [{
                         id: 1,
+                        cardName: "Delis Cinema",
+                        thumbnail: "",
+                        carousel: [],
+                        link: "none",
+                        detailProject: "Delis Cinema is a desktop application designed to manage movie schedules, seat bookings, and transactions for a local cinema. This was my final project for the Object-Oriented Programming course in college. I worked as both the system analyst and fullstack developer, focusing on the admin and staff perspectives. As a team, we implemented features such as film and studio management, schedule creation with conflict prevention, real-time seat booking, transaction history, revenue reports, and ticket printing. I was responsible for designing the system architecture, developing the admin dashboard, and building the staff interface for booking and printing tickets. Through this project, I gained valuable experience in desktop application development and collaborative teamwork.",
+                        client : "none",
+                        clientLink : "none",
+                        Tools: ['Java', 'Git & Github']
+                    },
+                    {
+                        id: 2,
                         cardName: "Noonajib",
                         thumbnail: "",
                         carousel: [],
-                        link: "https://noonajib.id/",
+                        link: "none",
                         detailProject: "Noonajib is a Korean restaurant in Bali. Tawa Talia asked me to make Noonajib a website where the website can carry out activities such as creating stories, menus, galleries, bookings and so on. This is a team project and I served as the Fullstack website developer on this project.",
                         client : "Tawa talia",
                         clientLink : "https://www.linkedin.com/in/tawa-talia-6558b9223/",
@@ -23,7 +34,7 @@
                         cardName: "Just Do Pilates",
                         thumbnail: "",
                         carousel: [],
-                        link: "https://justdopilatesstudio.com/",
+                        link: "none",
                         detailProject: "Just Do Pilates is pilates in Bali. Tawa Talia asked me to create a Just Do Pilates website which functions to organize various activities such as adding classes, changing schedules and so on. This was a team project and I served as a Fullstack website developer on this project",
                         client : "Tawa talia",
                         clientLink : "https://www.linkedin.com/in/tawa-talia-6558b9223/",
@@ -92,6 +103,10 @@
                         carousel = [refs.NoonajibCarousel1.src, refs.NoonajibCarousel2.src, refs
                             .NoonajibCarousel3.src
                         ];
+                    } else if (card.cardName === "Delis Cinema") {
+                        thumbnail = refs.DelisCinemaThumbnail.src;
+                        carousel = [refs.DelisCinemaCarousel1.src, refs.DelisCinemaCarousel2.src];
+                        
                     } else if (card.cardName === "Just Do Pilates") {
                         thumbnail = refs.JustDoPilatesThumbnail.src;
                         carousel = [refs.JustDoPilatesCarousel1.src, refs.JustDoPilatesCarousel2.src];
@@ -127,6 +142,15 @@
 <template>
     <Navbar></Navbar>
     <!-- ASSETS -->
+
+    <!-- DELIS CINEMA -->
+    <img ref="DelisCinemaThumbnail" src="/src/assets/images/projects/DelisCinema/delis-cinema.png"
+        alt="Delis Cinema" class="d-none">
+    <img ref="DelisCinemaCarousel1" src="/src/assets/images/projects/DelisCinema/delis-cinema-2.png" alt="" class="d-none">
+    <img ref="DelisCinemaCarousel2" src="/src/assets/images/projects/DelisCinema/delis-cinema-3.png"
+        alt="" class="d-none">
+    <!-- DELIS CINEMA END -->
+
     <!-- Noonajib -->
     <img ref="NoonajibThumbnail" src="/src/assets/images/projects/Noonajib/noonajib.png" alt="Noonajib" class="d-none">
     <img ref="NoonajibCarousel1" src="/src/assets/images/projects/Noonajib/noonajib.png" alt="" class="d-none">
