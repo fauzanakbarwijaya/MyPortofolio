@@ -91,14 +91,14 @@
                     <h1 class="text-3xl md:text-5xl font-dmsans font-bold">
                         ABOUT ME<span class="text-[#41B883]">.</span>
                     </h1>
-                    <p>I am a passionate and results-driven developer with two years of hands-on experience in turning
-                        complex ideas into elegant digital solutions. My journey in technology is fueled by a deep
-                        enthusiasm for building impactful products and a commitment to continuous learning.</p>
-                    <p>My career began with freelancing, where I honed my technical skills across a diverse range of
-                        projects. This experience inspired me to establish DosDev, an initiative to unite a collective
-                        of talented freelancers. Together, we collaborate to tackle more ambitious projects, combining
-                        our expertise to transform client visions into digital reality. Here is the stack of
-                        technologies I work with : </p>
+                    <p>A results-driven developer with two years of hands-on experience in transforming complex ideas
+                        into elegant digital solutions. My journey in technology is fueled by a passion for building
+                        impactful products and a commitment to continuous learning.
+                    </p>
+                    <p>After honing my skills on a diverse range of freelance projects, I founded DosDev, a collective
+                        of talented freelancers. As a team, we collaborate to tackle more ambitious projects, combining
+                        our expertise to deliver comprehensive digital solutions for clients.<br><br> My technical expertise is centered around the following technologies:
+                    </p>
                     <ul class="list-disc ps-5 flex flex-row justify-evenly md:justify-start text-lg">
                         <div>
                             <li>PYTHON</li>
@@ -254,7 +254,8 @@
                     <div class="mt-12 md:w-6/12">
                         <span class="text-9xl flex justify-center mb-4 animate-spin">😁</span>
                         <a href="mailto:neacakbar@gmail.com"
-                            class="text-lg border border-[#41B883] py-2 px-4 rounded-sm hover:bg-[#41B883] hover:text-white transition flex justify-center mx-auto font-semibold capitalize md:hidden w-64">Send me an email!</a>
+                            class="text-lg border border-[#41B883] py-2 px-4 rounded-sm hover:bg-[#41B883] hover:text-white transition flex justify-center mx-auto font-semibold capitalize md:hidden w-64">Send
+                            me an email!</a>
                         <div class="mt-12 flex flex-col items-center gap-2">
                             <div class="flex gap-6 text-3xl">
                                 <a href="https://github.com/fauzanakbarwijaya" target="_blank" rel="noopener"
