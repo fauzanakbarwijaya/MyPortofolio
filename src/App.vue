@@ -76,7 +76,7 @@
         <!-- End Navigation -->
 
         <section class="h-auto w-screen bg-gradient-to-b from-[#030E12] via-[#277552] to-[#328d64]" id="About">
-            <div class="container mx-auto font-poppins text-white pt-16 ps-5 flex flex-col md:flex-row items-center md:items-center min-h-screen"
+            <div class="container mx-auto font-poppins text-white pt-16 px-5 flex flex-col md:flex-row items-center md:items-center min-h-screen"
                 data-aos="fade-up" data-aos-duration="1000">
                 <!-- Profile Picture -->
                 <div class="w-full md:w-6/12 flex justify-center md:justify-center mb-8 md:mb-0">
@@ -146,7 +146,7 @@
                         <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
                                 <img src="/src/assets/ClinicoDekstop.png" alt="Project Image"
-                                    class="object-cover w-80" />
+                                    class="object-cover w-full max-w-xs mx-auto" />
                             </div>
                             <h3 class="font-bold text-center text-xl uppercase mb-2">Clinico</h3>
                             <p class="text-center text-gray-700 mb-3">
@@ -170,7 +170,7 @@
                         <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
                                 <img src="/src/assets/TawataliaDekstop.png" alt="Project Image"
-                                    class="object-cover w-80" />
+                                    class="object-cover w-full max-w-xs mx-auto" />
                             </div>
                             <h3 class="font-bold text-center text-xl uppercase mb-2">Tawatalia</h3>
                             <p class="text-center text-gray-700 mb-3">
@@ -192,7 +192,7 @@
                         <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
                                 <img src="/src/assets/NoonajibDekstop.png" alt="Project Image"
-                                    class="object-cover w-80" />
+                                    class="object-cover w-full max-w-xs mx-auto" />
                             </div>
                             <h3 class="font-bold text-center text-xl uppercase mb-2">Noonajib</h3>
                             <p class="text-center text-gray-700 mb-3">
@@ -215,7 +215,7 @@
                         <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
                                 <img src="/src/assets/SiPKLDekstop.png" alt="Project Image"
-                                    class="object-cover w-80" />
+                                    class="object-cover w-full max-w-xs mx-auto" />
                             </div>
                             <h3 class="font-bold text-center text-xl uppercase mb-2">SiPKL</h3>
                             <p class="text-center text-gray-700 mb-3">
@@ -240,7 +240,7 @@
         </section>
         <footer class="h-screen w-screen md:h-auto bg-[url('/src/assets/PutriMalu.jpg')] bg-cover" id="Contact">
             <div class="h-full bg-black/60">
-                <div class="container mx-auto pt-16 ps-4 md:p-7 text-white font-popins md:flex md:justify-center md:items-center md:min-h-[45rem]"
+                <div class="container mx-auto pt-16 px-4 md:p-7 text-white font-popins md:flex md:justify-center md:items-center md:min-h-[45rem]"
                     data-aos="fade-up" data-aos-duration="2500">
                     <div class="md:w-6/12 md:ps-7 space-y-3">
                         <h1 class="text-4xl md:text-6xl font-dmsans font-bold">Interested?<br>
