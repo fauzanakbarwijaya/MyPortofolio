@@ -6,7 +6,7 @@
         <h1 class="text-2xl text-white font-bold font-dmsans"><a href="/">Zan Wijaya</a></h1>
     </div>
     <div :class="showMobileMenu && isMd ? 'md:blur-xs' : ''"
-        class="bg-[url('/src/assets/Aurora.jpg')] h-screen bg-cover font-dmsans">
+        class="bg-[url('/src/assets/Aurora.jpg')] h-screen w-screen bg-cover font-dmsans">
         <!-- Navigation -->
         <header class="bg-black/60 h-full">
             <div class=" flex">
@@ -75,7 +75,7 @@
         </header>
         <!-- End Navigation -->
 
-        <section class="h-auto bg-gradient-to-b from-[#030E12] via-[#277552] to-[#328d64]" id="About">
+        <section class="h-auto w-screen bg-gradient-to-b from-[#030E12] via-[#277552] to-[#328d64]" id="About">
             <div class="container mx-auto font-poppins text-white pt-16 ps-5 flex flex-col md:flex-row items-center md:items-center min-h-screen"
                 data-aos="fade-up" data-aos-duration="1000">
                 <!-- Profile Picture -->
@@ -125,7 +125,7 @@
                 </div>
             </div>
         </section>
-        <section class="h-auto mb-7" id="Work">
+        <section class="h-auto w-screen mb-7" id="Work">
             <div class="container mx-auto font-poppins pt-11 px-5 text-black">
                 <div class="flex flex-col md:flex-row md:items-start md:gap-8">
                     <div
@@ -238,7 +238,7 @@
                 </div>
             </div>
         </section>
-        <footer class="h-screen md:h-auto bg-[url('/src/assets/PutriMalu.jpg')] bg-cover" id="Contact">
+        <footer class="h-screen w-screen md:h-auto bg-[url('/src/assets/PutriMalu.jpg')] bg-cover" id="Contact">
             <div class="h-full bg-black/60">
                 <div class="container mx-auto pt-16 ps-4 md:p-7 text-white font-popins md:flex md:justify-center md:items-center md:min-h-[45rem]"
                     data-aos="fade-up" data-aos-duration="2500">
