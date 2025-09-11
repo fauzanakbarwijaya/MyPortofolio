@@ -7,7 +7,7 @@ html{
 
 body{
   overflow-x: hidden !important;
-  width: 100vw !important;
+  width: 100% !important;
 }
 
 .font-dmsans {
