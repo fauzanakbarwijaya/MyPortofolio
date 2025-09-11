@@ -56,15 +56,16 @@
             </div>
             <div class="container mx-auto h-5/6 md:h-3/4 flex justify-center items-center">
                 <div class="text-center md:text-left text-white space-x-3 space-y-3 m-9">
-                    <p class="text-[#41B883] md:text-xl uppercase font-bold font-poppins">Hello, My Name Is Zan</p>
-                    <h1 class="text-5xl md:text-8xl font-dmsans">
+                    <p class="text-[#41B883] md:text-xl uppercase font-semibold font-poppins">Hello, My Name Is Zan</p>
+                    <h1 class="text-5xl md:text-8xl font-dmsans font-bold">
                         <span>{{ displayText }}</span>
                         <span v-if="typing" class="animate-pulse">|</span>
                     </h1>
-                    <h1 class="text-2xl md:text-4xl font-dmsans"><a href="https://www.instagram.com/dosdev_/"
-                            target="_blank" class="underline">DosDev</a> Founder<span
-                            class="text-[#41B883] font-bold">.</span></h1>
-                    <p class="md:text-xl md:w-9/12 font-poppins">I build seamless and intuitive digital experiences. As the founder of DosDev, I translate complex problems into elegant, user-centric solutions.</p>
+                    <h1 class="text-2xl md:text-4xl font-dmsans font-semibold"><a
+                            href="https://www.instagram.com/dosdev_/" target="_blank" class="underline">DosDev</a>
+                        Founder<span class="text-[#41B883] font-bold">.</span></h1>
+                    <p class="md:text-xl md:w-9/12 font-poppins">I build seamless and intuitive digital experiences. As
+                        the founder of DosDev, I translate complex problems into elegant, user-centric solutions.</p>
                     <div class="absolute bottom-8 left-0 w-full flex flex-col items-center animate-bounce">
                         <span class="text-5xl">&#41783;</span>
                         <p class="text-center">Scroll Down</p>
@@ -75,8 +76,8 @@
         <!-- End Navigation -->
 
         <section class="h-auto bg-gradient-to-b from-[#030E12] via-[#277552] to-[#328d64]" id="About">
-            <div
-                class="container mx-auto font-poppins text-white pt-16 ps-5 flex flex-col md:flex-row items-center md:items-center min-h-screen" data-aos="fade-up" data-aos-duration="1000">
+            <div class="container mx-auto font-poppins text-white pt-16 ps-5 flex flex-col md:flex-row items-center md:items-center min-h-screen"
+                data-aos="fade-up" data-aos-duration="1000">
                 <!-- Profile Picture -->
                 <div class="w-full md:w-6/12 flex justify-center md:justify-center mb-8 md:mb-0">
                     <div class="size-64 md:size-72 shadow-sm shadow-white rounded-sm flex items-center justify-center overflow-hidden transition-transform duration-700 ease-in-out"
@@ -90,8 +91,14 @@
                     <h1 class="text-3xl md:text-5xl font-dmsans font-bold">
                         ABOUT ME<span class="text-[#41B883]">.</span>
                     </h1>
-                    <p>I am a passionate and results-driven developer with two years of hands-on experience in turning complex ideas into elegant digital solutions. My journey in technology is fueled by a deep enthusiasm for building impactful products and a commitment to continuous learning.</p>
-                    <p>My career began with freelancing, where I honed my technical skills across a diverse range of projects. This experience inspired me to establish DosDev, an initiative to unite a collective of talented freelancers. Together, we collaborate to tackle more ambitious projects, combining our expertise to transform client visions into digital reality. Here is the stack of technologies I work with : </p>
+                    <p>I am a passionate and results-driven developer with two years of hands-on experience in turning
+                        complex ideas into elegant digital solutions. My journey in technology is fueled by a deep
+                        enthusiasm for building impactful products and a commitment to continuous learning.</p>
+                    <p>My career began with freelancing, where I honed my technical skills across a diverse range of
+                        projects. This experience inspired me to establish DosDev, an initiative to unite a collective
+                        of talented freelancers. Together, we collaborate to tackle more ambitious projects, combining
+                        our expertise to transform client visions into digital reality. Here is the stack of
+                        technologies I work with : </p>
                     <ul class="list-disc ps-5 flex flex-row justify-evenly md:justify-start text-lg">
                         <div>
                             <li>PYTHON</li>
@@ -119,7 +126,7 @@
             </div>
         </section>
         <section class="h-auto mb-7" id="Work">
-            <div class="container mx-auto font-poppins pt-11 ps-5 text-black">
+            <div class="container mx-auto font-poppins pt-11 px-5 text-black">
                 <div class="flex flex-col md:flex-row md:items-start md:gap-8">
                     <div
                         class="w-full md:w-6/12 md:flex md:items-center md:justify-center md:min-h-[54rem] md:order-1 md:sticky md:top-0">
@@ -136,7 +143,7 @@
                         </div>
                     </div>
                     <div class="w-full md:w-6/12 flex flex-col gap-8 md:order-2 md:pe-5">
-                        <div class="bg-white rounded-xl shadow-lg p-5 w-full">
+                        <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
                                 <img src="/src/assets/ClinicoDekstop.png" alt="Project Image"
                                     class="object-cover w-80" />
@@ -160,7 +167,7 @@
                                 <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-800">Google Meet</span>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl shadow-lg p-5 w-full">
+                        <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
                                 <img src="/src/assets/TawataliaDekstop.png" alt="Project Image"
                                     class="object-cover w-80" />
@@ -182,7 +189,7 @@
                                 <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-800">Github</span>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl shadow-lg p-5 w-full">
+                        <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
                                 <img src="/src/assets/NoonajibDekstop.png" alt="Project Image"
                                     class="object-cover w-80" />
@@ -205,7 +212,7 @@
                                 <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-800">Github</span>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl shadow-lg p-5 w-full">
+                        <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
                                 <img src="/src/assets/SiPKLDekstop.png" alt="Project Image"
                                     class="object-cover w-80" />
@@ -247,8 +254,7 @@
                     <div class="mt-12 md:w-6/12">
                         <span class="text-9xl flex justify-center mb-4 animate-spin">😁</span>
                         <a href="mailto:neacakbar@gmail.com"
-                            class="text-lg border border-[#41B883] py-2 px-4 rounded hover:bg-[#41B883] hover:text-white transition flex justify-center font-semibold capitalize md:hidden">Send
-                            me an email!</a>
+                            class="text-lg border border-[#41B883] py-2 px-4 rounded-sm hover:bg-[#41B883] hover:text-white transition flex justify-center mx-auto font-semibold capitalize md:hidden w-64">Send me an email!</a>
                         <div class="mt-12 flex flex-col items-center gap-2">
                             <div class="flex gap-6 text-3xl">
                                 <a href="https://github.com/fauzanakbarwijaya" target="_blank" rel="noopener"
@@ -282,7 +288,7 @@
                     &times;
                 </span>
             </div>
-            <div class="flex justify-center items-center h-3/4 text-4xl">
+            <div class="flex justify-center items-center h-2/3 md:h-3/4 text-4xl">
                 <ul>
                     <li class="mb-3 list-disc"><a href="#About"
                             class="font-bold text-center uppercase hover:text-[#41B883]"
@@ -326,7 +332,8 @@
 <script setup>
     import {
         ref,
-        onMounted
+        onMounted,
+        watch
     } from 'vue'
 
     const showMobileMenu = ref(false)
@@ -385,6 +392,15 @@
         if (window.AOS) {
             window.AOS.init()
         }
+        watch(showMobileMenu, (val) => {
+            if (window.innerWidth < 768) {
+                document.body.classList.toggle('overflow-hidden', val)
+                document.body.classList.toggle('h-screen', val)
+            } else {
+                document.body.classList.remove('overflow-hidden')
+                document.body.classList.remove('h-screen')
+            }
+        })
     })
 </script>
 
