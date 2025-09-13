@@ -303,9 +303,11 @@
                     <li class="mb-3 list-disc"><a href="#Contact"
                             class="font-bold text-center uppercase hover:text-[#41B883]"
                             @click="showMobileMenu = false">Contact</a></li>
-                    <li class="mb-3 list-disc"><a href="/src/assets/FauzanAkbarWijaya-Resume.pdf" target="_blank" rel="noopener"
+                    <li class="mb-3 list-disc">
+                        <a href="/FauzanAkbarWijaya-Resume.pdf" target="_blank" rel="noopener"
                             class="font-bold text-center uppercase hover:text-[#41B883]"
-                            @click="showMobileMenu = false">Resume</a>
+                            @click="showMobileMenu = false">Resume
+                        </a>
                     </li>
                 </ul>
             </div>
