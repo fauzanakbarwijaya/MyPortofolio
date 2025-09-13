@@ -97,7 +97,8 @@
                     </p>
                     <p>After honing my skills on a diverse range of freelance projects, I founded DosDev, a collective
                         of talented freelancers. As a team, we collaborate to tackle more ambitious projects, combining
-                        our expertise to deliver comprehensive digital solutions for clients.<br><br> My technical expertise is centered around the following technologies:
+                        our expertise to deliver comprehensive digital solutions for clients.<br><br> My technical
+                        expertise is centered around the following technologies:
                     </p>
                     <ul class="list-disc ps-5 flex flex-row justify-evenly md:justify-start text-lg">
                         <div>
@@ -137,7 +138,7 @@
                             <p class="text-lg md:ms-20 w-96 text-left hidden md:block">A showreel of my personal
                                 projects
                                 and work that I have done for various clients.</p>
-                            <a href=""
+                            <a href="https://github.com/fauzanakbarwijaya?tab=repositories" target="_blank" rel="noopener"
                                 class="hidden md:inline-block md:ms-20 p-2  bg-black hover:bg-[#41B883] text-white rounded">See
                                 More</a>
                         </div>
@@ -302,7 +303,7 @@
                     <li class="mb-3 list-disc"><a href="#Contact"
                             class="font-bold text-center uppercase hover:text-[#41B883]"
                             @click="showMobileMenu = false">Contact</a></li>
-                    <li class="mb-3 list-disc"><a href="#Resume"
+                    <li class="mb-3 list-disc"><a href="/src/assets/FauzanAkbarWijaya-Resume.pdf" target="_blank" rel="noopener"
                             class="font-bold text-center uppercase hover:text-[#41B883]"
                             @click="showMobileMenu = false">Resume</a>
                     </li>
