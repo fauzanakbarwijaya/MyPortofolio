@@ -347,7 +347,7 @@
         'Front-End',
         'Back-End',
         'Project Manager',
-        'Full Stack Developer'
+        'Website Developer'
     ]
     const displayText = ref('')
     const currentText = ref(0)
