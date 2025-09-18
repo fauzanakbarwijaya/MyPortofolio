@@ -91,7 +91,7 @@
                     <h1 class="text-3xl md:text-5xl font-dmsans font-bold">
                         ABOUT ME<span class="text-[#41B883]">.</span>
                     </h1>
-                    <p>A results-driven developer with two years of hands-on experience in transforming complex ideas
+                    <p>A results-driven developer with hands-on experience in transforming complex ideas
                         into elegant digital solutions. My journey in technology is fueled by a passion for building
                         impactful products and a commitment to continuous learning.
                     </p>
@@ -120,6 +120,7 @@
                             <li>GITHUB</li>
                             <li>SYSTEM DESIGN</li>
                             <li>CI/CD</li>
+                            <li>FIGMA</li>
                             <li>TRELLO</li>
                         </div>
                     </ul>
@@ -346,7 +347,7 @@
         'Front-End',
         'Back-End',
         'Project Manager',
-        'Website Developer'
+        'Full Stack Developer'
     ]
     const displayText = ref('')
     const currentText = ref(0)
