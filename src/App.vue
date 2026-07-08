@@ -111,8 +111,9 @@
                             <li>GIT</li>
                         </div>
                         <div class="md:ms-16">
-                            <li>STREAMLIT</li>
+                            <li>CODEIGNITER</li>
                             <li>LARAVEL</li>
+                            <li>FLASK</li>
                             <li>TAILWIND</li>
                             <li>BOOTSTRAP</li>
                             <li>VUE</li>
