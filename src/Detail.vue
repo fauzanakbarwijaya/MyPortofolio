@@ -373,6 +373,83 @@
                 },
             ],
         },
+        sadar: {
+            title: 'Sadar Apnea',
+            description: 'SADAR is a web-based health application designed to detect sleep apnea by analyzing users\' sleep audio recordings using deep learning algorithms. The platform provides an accessible and preliminary assessment of sleep health.',
+            image: '/SadarApneaDesktop.png',
+            specs: [
+                { label: 'Role', value: 'Developer' },
+                { label: 'Platform', value: 'Web Application' },
+                { label: 'Industry', value: 'Healthcare' },
+                { label: 'Type', value: 'AI / Deep Learning' },
+            ],
+            content: [
+                {
+                    title: 'Introduction',
+                    text: 'SADAR (Sleep Apnea Detection Application) is a web-based health application built to detect sleep apnea from sleep audio recordings. By leveraging deep learning algorithms, the platform provides users with an accessible and preliminary assessment of their sleep health without requiring expensive clinical equipment.',
+                },
+                {
+                    title: 'Project Details',
+                    text: 'As the Developer, I built the full-stack application using Flask as the backend framework and TailwindCSS for the frontend. The core of the system is a CNN-based model trained on the SE-ResNetV3 architecture, which processes audio input and classifies whether the user exhibits signs of sleep apnea during sleep.',
+                },
+                {
+                    title: 'Key Features',
+                    list: [
+                        { label: 'Audio Upload & Analysis', value: 'Users can upload sleep audio recordings which are then processed and analyzed by the deep learning model.' },
+                        { label: 'CNN + SE-ResNetV3 Detection', value: 'Utilizes a Convolutional Neural Network with Squeeze-and-Excitation ResNetV3 architecture for accurate sleep apnea detection.' },
+                        { label: 'Result Dashboard', value: 'Provides a clear and user-friendly interface displaying analysis results and sleep health assessments.' },
+                        { label: 'Accessible Health Screening', value: 'Offers a preliminary sleep health assessment without the need for expensive clinical-grade equipment.' },
+                    ],
+                },
+                {
+                    title: 'Technologies Used',
+                    list: [
+                        { label: 'Backend Framework', value: 'Flask' },
+                        { label: 'Frontend Framework', value: 'TailwindCSS' },
+                        { label: 'AI Model', value: 'CNN + SE-ResNetV3' },
+                        { label: 'Database', value: 'Relational Database' },
+                    ],
+                },
+            ],
+        },
+        sabindo: {
+            title: 'Sabindo Logistic System',
+            description: 'Sabindo Logistic System is a web-based application designed to automate the company\'s entire logistics workflow, from receiving motorcycle units from the factory to client billing. This system transforms manual record-keeping into a systematic, transparent, and accurate process.',
+            image: '/SabindoDesktop.png',
+            specs: [
+                { label: 'Role', value: 'Developer' },
+                { label: 'Platform', value: 'Web Application' },
+                { label: 'Industry', value: 'Logistics' },
+                { label: 'Type', value: 'Operations Management' },
+            ],
+            content: [
+                {
+                    title: 'Introduction',
+                    text: 'Sabindo Logistic System was created to transform the company\'s manual logistics operations into a centralized, systematic, transparent, and accurate digital system. The application manages the entire workflow from receiving motorcycle units from the factory to delivering them to clients, covering both operational and billing processes.',
+                },
+                {
+                    title: 'Project Details',
+                    text: 'As the Developer, I built the full-stack application using CodeIgniter as the backend framework and TailwindCSS for the frontend. The system is specifically designed to handle logistics operations from end-to-end, including fleet management, container cargo tracking, document generation, and automated invoicing based on detailed vehicle specifications.',
+                },
+                {
+                    title: 'Key Features',
+                    list: [
+                        { label: 'Allocation & Receiving Management', value: 'Records target motorcycle unit requests from clients and tracks incoming units from the factory to the temporary warehouse using company trucks.' },
+                        { label: 'Container Cargo Management', value: 'Manages the stuffing process (loading motorcycles into containers) after repack is completed at the warehouse.' },
+                        { label: 'Document Tracking & Automation', value: 'Monitors departure status via Actual Loading data and automatically generates Manifest documents (container contents) and insurance recapitulation.' },
+                        { label: 'Integrated Billing System', value: 'Accelerates finance staff tasks by automatically calculating detailed costs based on vehicle specifications such as CC and motorcycle colors in each container.' },
+                    ],
+                },
+                {
+                    title: 'Technologies Used',
+                    list: [
+                        { label: 'Backend Framework', value: 'CodeIgniter' },
+                        { label: 'Frontend Framework', value: 'TailwindCSS' },
+                        { label: 'Database', value: 'Relational Database' },
+                    ],
+                },
+            ],
+        },
     }
 
     const fallbackProject = {

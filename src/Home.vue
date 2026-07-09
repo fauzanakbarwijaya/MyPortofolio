@@ -148,6 +148,48 @@
                     <div class="w-full md:w-6/12 flex flex-col gap-8 md:order-2 md:pe-5">
                         <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
+                                <img src="/SadarApneaDesktop.png" alt="Project Image"
+                                    class="object-cover w-full max-w-xs mx-auto" />
+                            </div>
+                            <h3 class="font-bold text-center text-xl uppercase mb-2">Sadar Apnea</h3>
+                            <p class="text-center text-gray-700 mb-3">
+                                SADAR is a web-based health application designed to detect sleep apnea. By seamlessly analyzing users' sleep audio recordings, the platform provides an accessible and preliminary assessment of sleep health.
+                            </p>
+                            <div class="flex justify-center items-center mb-3">
+                                <span
+                                    class="px-3 py-1 rounded-full bg-[#41B883] text-white text-sm font-semibold">Status:
+                                    Developer</span>
+                            </div>
+                            <div class="flex justify-center">
+                                <router-link to="/detail/sadar"
+                                    class="px-5 py-2 bg-black hover:bg-[#41B883] text-white text-sm font-semibold rounded transition-colors duration-300">
+                                    Detail->
+                                </router-link>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
+                            <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
+                                <img src="/SabindoDesktop.png" alt="Project Image"
+                                    class="object-cover w-full max-w-xs mx-auto" />
+                            </div>
+                            <h3 class="font-bold text-center text-xl uppercase mb-2">Sabindo Logistic System</h3>
+                            <p class="text-center text-gray-700 mb-3">
+                                Sabindo Logistic System is a web-based application designed to automate the company's entire logistics workflow, from receiving motorcycle units from the factory to client billing. This system transforms manual record-keeping into a systematic, transparent, and accurate process, featuring core functionalities like fleet management, container cargo tracking, and the automated generation of Manifests and invoices.
+                            </p>
+                            <div class="flex justify-center items-center mb-3">
+                                <span
+                                    class="px-3 py-1 rounded-full bg-[#41B883] text-white text-sm font-semibold">Status:
+                                    Developer</span>
+                            </div>
+                            <div class="flex justify-center">
+                                <router-link to="/detail/sabindo"
+                                    class="px-5 py-2 bg-black hover:bg-[#41B883] text-white text-sm font-semibold rounded transition-colors duration-300">
+                                    Detail->
+                                </router-link>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
+                            <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
                                 <img src="/ClinicoDekstop.png" alt="Project Image"
                                     class="object-cover w-full max-w-xs mx-auto" />
                             </div>
