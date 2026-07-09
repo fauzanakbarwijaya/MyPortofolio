@@ -148,7 +148,7 @@
                     <div class="w-full md:w-6/12 flex flex-col gap-8 md:order-2 md:pe-5">
                         <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
-                                <img src="/src/assets/ClinicoDekstop.png" alt="Project Image"
+                                <img src="/ClinicoDekstop.png" alt="Project Image"
                                     class="object-cover w-full max-w-xs mx-auto" />
                             </div>
                             <h3 class="font-bold text-center text-xl uppercase mb-2">Clinico</h3>
@@ -172,7 +172,7 @@
                         </div>
                         <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
-                                <img src="/src/assets/TawataliaDekstop.png" alt="Project Image"
+                                <img src="/TawataliaDekstop.png" alt="Project Image"
                                     class="object-cover w-full max-w-xs mx-auto" />
                             </div>
                             <h3 class="font-bold text-center text-xl uppercase mb-2">Tawatalia</h3>
@@ -194,7 +194,7 @@
                         </div>
                         <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
-                                <img src="/src/assets/NoonajibDekstop.png" alt="Project Image"
+                                <img src="/NoonajibDekstop.png" alt="Project Image"
                                     class="object-cover w-full max-w-xs mx-auto" />
                             </div>
                             <h3 class="font-bold text-center text-xl uppercase mb-2">Noonajib</h3>
@@ -217,7 +217,7 @@
                         </div>
                         <div class="bg-white rounded-xl shadow-lg p-5 w-full mx-auto max-w-md">
                             <div class=" rounded-lg mb-4 mx-auto overflow-hidden flex items-center justify-center">
-                                <img src="/src/assets/SiPKLDekstop.png" alt="Project Image"
+                                <img src="/SiPKLDekstop.png" alt="Project Image"
                                     class="object-cover w-full max-w-xs mx-auto" />
                             </div>
                             <h3 class="font-bold text-center text-xl uppercase mb-2">SiPKL</h3>

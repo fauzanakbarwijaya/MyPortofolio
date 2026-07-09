@@ -116,7 +116,7 @@
         </section>
         <!-- End Project Overview + Details Section -->
 
-        <footer class="h-screen w-screen md:h-auto bg-[url('/src/assets/PutriMalu.jpg')] bg-cover" id="Contact">
+        <footer class="h-screen w-screen md:h-auto bg-[url('/PutriMalu.jpg')] bg-cover" id="Contact">
             <div class="h-full bg-black/60">
                 <div class="container mx-auto pt-16 px-4 md:p-7 text-white font-popins md:flex md:justify-center md:items-center md:min-h-[45rem]"
                     data-aos="fade-up" data-aos-duration="2500">
@@ -224,7 +224,7 @@
         clinico: {
             title: 'Clinico',
             description: 'Clinico is a Software as a Service (SaaS) Electronic Health Record (EHR) platform designed for clinics and healthcare facilities in Malaysia. It streamlines patient data management, appointment scheduling, and medical record keeping, helping healthcare providers deliver efficient and secure services.',
-            image: '/src/assets/ClinicoDekstop.png',
+            image: '/ClinicoDekstop.png',
             specs: [
                 { label: 'Role', value: 'Project Manager' },
                 { label: 'Platform', value: 'Web Application' },
@@ -262,7 +262,7 @@
         tawatalia: {
             title: 'Tawatalia',
             description: 'Tawatalia is a website-based company profile that offers professional SEO services to help businesses improve their online visibility and search engine rankings.',
-            image: '/src/assets/TawataliaDekstop.png',
+            image: '/TawataliaDekstop.png',
             specs: [
                 { label: 'Role', value: 'Developer' },
                 { label: 'Platform', value: 'Web Application' },
@@ -300,7 +300,7 @@
         noonajib: {
             title: 'Noonajib',
             description: 'Noonajib is a web-based restaurant table booking system that enables customers to easily reserve tables online. The platform streamlines the reservation process for both diners and restaurant staff, ensuring a convenient and efficient dining experience.',
-            image: '/src/assets/NoonajibDekstop.png',
+            image: '/NoonajibDekstop.png',
             specs: [
                 { label: 'Role', value: 'Developer' },
                 { label: 'Platform', value: 'Web Application' },
@@ -338,7 +338,7 @@
         sipkl: {
             title: 'SiPKL',
             description: 'SiPKL is a web-based system used for managing internship employees at the Center for Information and Communication Technology, Universitas Negeri Jakarta.',
-            image: '/src/assets/SiPKLDekstop.png',
+            image: '/SiPKLDekstop.png',
             specs: [
                 { label: 'Role', value: 'Developer' },
                 { label: 'Platform', value: 'Web Application' },
@@ -378,7 +378,7 @@
     const fallbackProject = {
         title: 'Project Not Found',
         description: 'The project you are looking for does not exist or has been removed.',
-        image: '/src/assets/ClinicoDekstop.png',
+        image: '/ClinicoDekstop.png',
         specs: [],
         content: [],
     }
