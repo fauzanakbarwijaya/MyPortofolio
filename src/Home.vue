@@ -6,7 +6,7 @@
         <h1 class="text-2xl text-white font-bold font-dmsans"><a href="/">Zan Wijaya</a></h1>
     </div>
     <div :class="showMobileMenu && isMd ? 'md:blur-xs' : ''"
-        class="bg-[url('/src/assets/Aurora.jpg')] h-screen w-screen bg-cover font-dmsans">
+        class="bg-[url('/Aurora.jpg')] h-screen w-screen bg-cover font-dmsans">
         <!-- Navigation -->
         <header class="bg-black/60 h-full">
             <div class=" flex">
@@ -83,7 +83,7 @@
                     <div class="size-64 md:size-72 shadow-sm shadow-white rounded-sm flex items-center justify-center overflow-hidden transition-transform duration-700 ease-in-out"
                         @mousemove="handleMouseMove" @mouseleave="handleMouseLeave"
                         :style="{ transform: imgTransform }">
-                        <img src="/src/assets/ProfilePicture.JPG" alt="" class="object-coverrounded-sm" />
+                        <img src="/ProfilePicture.JPG" alt="" class="object-coverrounded-sm" />
                     </div>
                 </div>
                 <!-- Stack Skill -->
@@ -241,7 +241,7 @@
                 </div>
             </div>
         </section>
-        <footer class="h-screen w-screen md:h-auto bg-[url('/src/assets/PutriMalu.jpg')] bg-cover" id="Contact">
+        <footer class="h-screen w-screen md:h-auto bg-[url('/PutriMalu.jpg')] bg-cover" id="Contact">
             <div class="h-full bg-black/60">
                 <div class="container mx-auto pt-16 px-4 md:p-7 text-white font-popins md:flex md:justify-center md:items-center md:min-h-[45rem]"
                     data-aos="fade-up" data-aos-duration="2500">
