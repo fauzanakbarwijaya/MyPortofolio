@@ -62,7 +62,7 @@
                         <span v-if="typing" class="animate-pulse">|</span>
                     </h1>
                     <h1 class="text-2xl md:text-4xl font-dmsans font-semibold"><a
-                            href="https://www.instagram.com/dosdev_/" target="_blank" class="underline">DosDev</a>
+                            href="https://dosdev.vercel.app/id" target="_blank" class="underline">DosDev</a>
                         Founder<span class="text-[#41B883] font-bold">.</span></h1>
                     <p class="md:text-xl md:w-9/12 font-poppins">I build seamless and intuitive digital experiences. As
                         the founder of DosDev, I translate complex problems into elegant, user-centric solutions.</p>
